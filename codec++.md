@@ -4,11 +4,11 @@ int main()
 {
 //structure
 	struct s_lampe{
-		char lettre[350];
-		char type[300];
+		char lettre[30];
+		char type[30];
 		int consommation;
 		float prix;
-		} LMP[300];
+		} LMP[30];
 
 int N,i;
 float budget;
@@ -16,7 +16,7 @@ float budget;
 	scanf("%d",&N);
 	if(N>200){
 	printf("La dimension du rayon ne permets pas d'exposer plus de 200 lampes\n");
-	printf("Veuillez introduire un autre nombre infÃ©rieur Ã  200 : \t");
+	printf("Veuillez introduire un autre nombre inferieur a  200 : \t");
 	scanf("%d",&N);}
 	
 	for(i=1;i<=N;i++){
